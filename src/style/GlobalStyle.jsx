@@ -13,6 +13,10 @@ const GlobalStyle = createGlobalStyle`
     --font-xlz: 20px;
   }
 
+  body {
+    color: var(--main-color);
+  }
+
   *{
     box-sizing: border-box;
   }
@@ -29,6 +33,7 @@ const GlobalStyle = createGlobalStyle`
 		border: 0;
     box-sizing: border-box;
 		vertical-align: baseline;
+    text-align: center;
 	}
 
 	ol, ul{
