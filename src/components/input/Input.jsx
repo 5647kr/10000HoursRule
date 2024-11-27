@@ -34,8 +34,8 @@ export default function Input({setData}) {
         그래서 앞으로 매일 하루에
         <label className='a11y-hidden'>훈련 시간</label>
         <input
-          type="text"
-          placeholder='예)5시간'
+          type="number"
+          placeholder='예)5'
           onChange={handleTime}
         />
         시간씩 훈련할 것이다.
