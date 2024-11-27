@@ -25,7 +25,7 @@ const Wrap = styled.div`
 `
 
 const TitleHeading = styled.h1`
-  margin-top: 50px;
+  margin-top: 40px;
   font-size: 60px;
   font-weight: bold;
   font-family: "Black Han Sans";
@@ -33,14 +33,14 @@ const TitleHeading = styled.h1`
 `
 
 const SubTitleHeading = styled.h2`
-  margin-top: 40px;
+  margin-top: 60px;
   font-size: 30px;
   font-family: "Nanum Pen Script";
   color: var(--content-color);
 `
 
 const SubscribeParagraph = styled.p`
-  margin-top: 40px;
+  margin-top: 60px;
   font-size: 30px;
   font-family: "Black Han Sans";
   line-height: 50px;
