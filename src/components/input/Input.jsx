@@ -14,7 +14,7 @@ export default function Input({setData}) {
   }
 
   const clickBtn = () => {
-    setData((newData) => [...newData, {part, time}]);
+    setData(() => [part, time]);
   };
 
   return (
